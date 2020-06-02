@@ -1,0 +1,2 @@
+'atom-text-editor':
+  'cmd-shift-k': 'hit-format:format'

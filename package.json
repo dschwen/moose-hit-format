@@ -1,26 +1,17 @@
 {
-  "name": "clang-format",
+  "name": "hit-format",
   "main": "./lib/main",
-  "version": "2.0.8",
+  "version": "0.0.0",
   "private": true,
-  "description": "Format your C/C++/Obj-C/Javascript files with clang-format from inside atom.",
-  "repository": "https://github.com/LiquidHelium/atom-clang-format",
+  "description": "Format your MOOSE input files from inside atom.",
+  "repository": "https://github.com/dschwen/moose-hit-format",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "test": "atom --test .",
-    "release": "semantic-release --ci --debug"
-  },
-  "dependencies": {
-    "clang-format-binaries": "^0.0.1"
+    "test": "atom --test ."
   },
   "devDependencies": {
-    "@semantic-release/apm": "^1.0.1",
-    "@semantic-release/git": "^7.0.7",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "semantic-release": "^15.13.2"
+    "eslint": "^5.3.0"
   }
 }

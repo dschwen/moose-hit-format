@@ -5,7 +5,7 @@
     'submenu': [
       'label': 'Clang Format'
       'submenu': [
-        { 'label': 'Format', 'command': 'clang-format:format' }
+        { 'label': 'Format', 'command': 'hit-format:format' }
       ]
     ]
   }

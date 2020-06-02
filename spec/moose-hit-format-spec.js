@@ -1,17 +1,17 @@
 'use babel';
 
-import ClangFormat from '../lib/clang-format';
+import HitFormat from '../lib/hit-format';
 
-describe('When we format a simple c++ file', () => {
+describe('When we format a hit input file', () => {
   let editor;
 
   beforeEach(async () => {
-    editor = await atom.workspace.open('somefile.cpp');
-    await editor.setText('#include"hello.cpp";int main(){return 0;}');
-    await editor.setCursorBufferPosition(11);
+    editor = await atom.workspace.open('somefile.i');
+    await editor.setText('[Mesh]\ntype = GeneratedMesh\ndim=3\n[]');
+    await editor.setCursorBufferPosition(8);
 
-    const clangFormatInstance = new ClangFormat();
-    await clangFormatInstance.format(editor);
+    const hitFormatInstance = new HitFormat();
+    await hitFormatInstance.format(editor);
   });
 
   it('Should update the editor with the formatted code', async () => {
