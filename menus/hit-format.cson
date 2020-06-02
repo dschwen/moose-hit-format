@@ -3,7 +3,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Clang Format'
+      'label': 'Hit Format'
       'submenu': [
         { 'label': 'Format', 'command': 'hit-format:format' }
       ]

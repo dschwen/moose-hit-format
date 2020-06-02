@@ -15,10 +15,6 @@ describe('When we format a hit input file', () => {
   });
 
   it('Should update the editor with the formatted code', async () => {
-    expect(editor.getText()).toEqual('#include "hello.cpp"; int main(){return 0; }');
-  });
-
-  it('Should update the editor cursor position to stay on the same letter', async () => {
-    expect(editor.getCursorBufferPosition()).toEqual(12);
+    expect(editor.getText()).toEqual('[Mesh]\n  type = GeneratedMesh\n  dim = 3\n[]');
   });
 });
