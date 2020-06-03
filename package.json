@@ -11,7 +11,7 @@
     "test": "atom --test ."
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.3.0"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0"
   }
 }
