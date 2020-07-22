@@ -1,7 +1,7 @@
 {
   "name": "moose-hit-format",
   "main": "./lib/main",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "description": "Format your MOOSE input files from inside atom.",
   "repository": "git@github.com:dschwen/moose-hit-format",
